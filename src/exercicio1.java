@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 import java.util.Scanner; //usada para ler as entradas do usuario //biblioteca
 
 public class exercicio1 {
