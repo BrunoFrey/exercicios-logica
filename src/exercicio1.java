@@ -1,11 +1,11 @@
-import java.util.Scanner; //usada para ler as entradas do usuario //biblioteca
+import java.util.Scanner;
 
 public class exercicio1 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in); // cria o scanner, para ler oque o usuario digita no teclado
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite sua idade: ");
-        int idade = entrada.nextInt(); // le um número inteiro digitado
+        System.out.println("Digite sua idade: ");
+        int idade = sc.nextInt(); // le um número inteiro digitado
 
         if (idade >= 18) {
             System.out.println("A pessoa é maior de idade.");
@@ -13,7 +13,7 @@ public class exercicio1 {
             System.out.println("A pessoa é menor de idade.");
         }
 
-        entrada.close(); // fecha o scanner
+        sc.close();
     }
 }
 
