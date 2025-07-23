@@ -5,7 +5,7 @@ public class exercicio1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite sua idade: ");
-        int idade = sc.nextInt(); 
+        int idade = sc.nextInt();
 
         if (idade >= 18) {
             System.out.println("A pessoa é maior de idade.");
