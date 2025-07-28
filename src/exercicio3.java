@@ -9,9 +9,9 @@ public class exercicio3 {
         System.out.println("Digite 1 para Pedra");
         System.out.println("Digite 2 para Papel");
         System.out.println("Digite 3 para Tesoura");
-        int jogador = sc.nextInt(); // espere o usuario digitar um numero e apertar enter// o numero digitado sera armazenado na variavel jogador
+        int jogador = sc.nextInt();
 
-        int maquina = r.nextInt(3) + 1; // 1, 2 ou 3 aleatório // apos o usuario escolher 1 2 3 a maquina vai gerar um numero 1,2 ou 3
+        int maquina = r.nextInt(3) + 1;
 
         if (maquina == 1) {
             System.out.println("Máquina jogou Pedra");

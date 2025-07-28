@@ -13,13 +13,12 @@ public class exercicio4 {
 
         int opcao = sc.nextInt();
 
-        //pede os numeros
         System.out.println("Digite o primeiro número:");
         int num1 = sc.nextInt();
 
         System.out.println("Digite o segundo número:");
         int num2 = sc.nextInt();
-        // estrutura de decição
+
         // switch-case , serve para escolher uma opção entre várias
         switch (opcao) {
             case 1:
@@ -38,7 +37,7 @@ public class exercicio4 {
                     System.out.println("Erro: Não pode dividir por zero.");
                 }
                 break;
-            default: // para o programa responder mesmo se o usuario por um numero desconhecido
+            default: // nao deixar o usuario sem resposta
                 System.out.println("Opção inválida.");
         }
 
