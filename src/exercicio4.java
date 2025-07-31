@@ -37,7 +37,7 @@ public class exercicio4 {
                     System.out.println("Erro: Não pode dividir por zero.");
                 }
                 break;
-            default: // nao deixar o usuario sem resposta
+            default:
                 System.out.println("Opção inválida.");
         }
 
