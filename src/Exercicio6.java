@@ -10,7 +10,7 @@ public class Exercicio6 {
         System.out.println("Números gerados:");
 
         for (int i = 1; i <= 10; i++) {
-            int numero = random.nextInt(101); // nao tem o +1 pq é 0 a 100
+            int numero = random.nextInt(101);
             System.out.print(numero + " ");
 
             if (numero > maior) {
@@ -22,7 +22,7 @@ public class Exercicio6 {
             }
         }
 
-        System.out.println(); // pula linha
+        System.out.println();
         System.out.println("Maior número: " + maior);
         System.out.println("Menor número: " + menor);
     }
