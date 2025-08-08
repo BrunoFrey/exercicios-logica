@@ -10,7 +10,7 @@ public class Exercício9 {
         int primeiro = 0;
         int segundo = 1;
 
-        System.out.println("Série de Fibonacci até " + limite + ":");
+        System.out.println("Série de Fibonacci até " + limite + ":"); // !
 
         while (primeiro <= limite) {
             System.out.print(primeiro + " ");
