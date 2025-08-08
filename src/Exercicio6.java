@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Exercicio6 {
     public static void main(String[] args) {
-        Random random = new Random(); // gera números aleatórios
+        Random random = new Random();
 
         int maior = 0;
         int menor = 100;
